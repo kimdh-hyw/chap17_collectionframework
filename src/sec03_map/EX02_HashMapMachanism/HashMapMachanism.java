@@ -1,7 +1,6 @@
 package sec03_map.EX02_HashMapMachanism;
 
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
 import java.util.Objects;
 
@@ -45,9 +44,6 @@ class C {
 		return Objects.hash(data);		
 	}
 }
-
-
-
 
 public class HashMapMachanism {
 	public static void main(String[] args) {

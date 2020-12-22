@@ -66,18 +66,5 @@ public class LinkedHashMapMethod {
 		//#13. clear()
 		lhMap2.clear();
 		System.out.println(lhMap2.toString()); //{}
-		
-		
 	}
 }
-
-
-
-
-
-
-
-
-
-
-

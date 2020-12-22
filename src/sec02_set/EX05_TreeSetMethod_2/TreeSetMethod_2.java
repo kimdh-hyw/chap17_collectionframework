@@ -12,7 +12,6 @@ class MyClass {
 	}
 }
 
-
 class MyComparableClass implements Comparable<MyComparableClass>{
 	int data1;
 	int data2;
@@ -27,8 +26,6 @@ class MyComparableClass implements Comparable<MyComparableClass>{
 		else return 1;
 	}
 }
-
-
 
 public class TreeSetMethod_2 {
 	public static void main(String[] args) {

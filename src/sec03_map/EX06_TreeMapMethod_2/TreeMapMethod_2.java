@@ -2,7 +2,6 @@ package sec03_map.EX06_TreeMapMethod_2;
 
 import java.util.Comparator;
 import java.util.TreeMap;
-import java.util.TreeSet;
 
 class MyClass {
 	int data1;
@@ -30,15 +29,12 @@ class MyComparableClass implements Comparable<MyComparableClass>{
 		if(this.data1<o.data1) return -1;
 		else if(this.data1 == o.data1) return 0;
 		else return 1;
-		
-		//if(this.data2<o.data2) return 1;  //data2가 작은 값을 가지는 객체일수록 더 큰 객체야
 	}
 	@Override
 	public String toString() {		
 		return "data1="+data1+"을 가지고 있는 클래스";
 	}
 }
-
 
 public class TreeMapMethod_2 {
 	public static void main(String[] args) {
@@ -60,12 +56,14 @@ public class TreeMapMethod_2 {
 		System.out.println(treeMap2.toString()); //{가나=10, 다라=20}
 		
 		//#3. MyClass 객체 크기 비교
-//		TreeMap<MyClass, String> treeMap3 = new TreeMap<MyClass, String>();
-//		MyClass myClass1 = new MyClass(2, 5);
-//		MyClass myClass2 = new MyClass(3, 3);
-//		treeMap3.put(myClass1, "가나다");
-//		treeMap3.put(myClass2, "나라다");
-//		System.out.println(treeMap3.toString());
+		/*
+		TreeMap<MyClass, String> treeMap3 = new TreeMap<MyClass, String>();
+		MyClass myClass1 = new MyClass(2, 5);
+		MyClass myClass2 = new MyClass(3, 3);
+		treeMap3.put(myClass1, "가나다");
+		treeMap3.put(myClass2, "나라다");
+		System.out.println(treeMap3.toString());
+        */
 		
 		//#4. MyComparableClass 객체 크기 비교 방법#1
 		TreeMap<MyComparableClass, String> treeMap4 = new TreeMap<MyComparableClass, String>();		
@@ -90,6 +88,5 @@ public class TreeMapMethod_2 {
 		treeMap5.put(myClass1, "가나다");
 		treeMap5.put(myClass2, "나라다");
 		System.out.println(treeMap5);
-
 	}
 }

@@ -8,7 +8,7 @@ public class QueueMethod {
 		
 		//#1. 예외처리기능 미포함 메서드 첫번째 세트
 		Queue<Integer> queue1 = new LinkedList<Integer>();
-		//System.out.println(queue1.element());
+		//System.out.println(queue1.element());//NoSuchElementException
 		//@1-1 add(E item)
 		queue1.add(3);
 		queue1.add(4);
@@ -21,8 +21,8 @@ public class QueueMethod {
 		System.out.println(queue1.remove()); //3
 		System.out.println(queue1.remove()); //4
 		System.out.println(queue1.remove()); //5
-		//System.out.println(queue1.remove()); //
-		
+		//System.out.println(queue1.remove());//NoSuchElementException
+		System.out.println();
 		
 		//#2. 예외처리기능 포함 메서드 두번째 세트
 		Queue<Integer> queue2 = new LinkedList<Integer>();
@@ -40,8 +40,7 @@ public class QueueMethod {
 		System.out.println(queue2.poll()); //3
 		System.out.println(queue2.poll()); //4
 		System.out.println(queue2.poll()); //5	
-		System.out.println(queue2.poll()); //
-		 
+		System.out.println(queue2.poll()); //null 
 	}
 }
 

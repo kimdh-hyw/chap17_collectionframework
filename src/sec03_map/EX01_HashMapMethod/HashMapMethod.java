@@ -66,18 +66,5 @@ public class HashMapMethod {
 		//#13. clear()
 		hMap2.clear();
 		System.out.println(hMap2.toString()); //{}
-		
-		
 	}
 }
-
-
-
-
-
-
-
-
-
-
-

@@ -79,11 +79,7 @@ public class ArrayListMethod {
 		
 		//#13-2. toArray(T[] t) -->  T[]
 		Integer[] integer2 = aList3.toArray(new Integer[5]);
-		System.out.println(Arrays.toString(integer2));
-		
-		
-		
-		
+		System.out.println(Arrays.toString(integer2));				
 	}
 }
 

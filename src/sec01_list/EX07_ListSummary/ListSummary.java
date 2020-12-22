@@ -16,7 +16,6 @@ public class ListSummary {
 		arrayList.add("가");
 		System.out.println(arrayList.toString()); //[다, 마, 나, 가]
 		
-		
 		//2. Vector
 		List<String> vector = new Vector<>();
 		vector.add("다");
@@ -24,7 +23,6 @@ public class ListSummary {
 		vector.add("나");
 		vector.add("가");
 		System.out.println(vector.toString()); //[다, 마, 나, 가]
-		
 
 		//3. LinkedList
 		List<String> linkedList = new LinkedList<>();
@@ -32,7 +30,6 @@ public class ListSummary {
 		linkedList.add("마");
 		linkedList.add("나");
 		linkedList.add("가");
-		System.out.println(linkedList.toString()); //[다, 마, 나, 가]
-		
+		System.out.println(linkedList.toString()); //[다, 마, 나, 가]		
 	}
 }

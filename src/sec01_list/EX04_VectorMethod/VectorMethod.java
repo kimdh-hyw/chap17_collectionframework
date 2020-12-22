@@ -80,10 +80,6 @@ public class VectorMethod {
 		//#13-2. toArray(T[] t) -->  T[]
 		Integer[] integer2 = vector3.toArray(new Integer[5]);
 		System.out.println(Arrays.toString(integer2));
-		
-		
-		
-		
 	}
 }
 

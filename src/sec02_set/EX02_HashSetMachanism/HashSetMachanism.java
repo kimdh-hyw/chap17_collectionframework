@@ -45,9 +45,6 @@ class C {
 	}
 }
 
-
-
-
 public class HashSetMachanism {
 	public static void main(String[] args) {
 		

@@ -65,19 +65,6 @@ public class HashTableMethod {
 		
 		//#13. clear()
 		hTable2.clear();
-		System.out.println(hTable2.toString()); //{}
-		
-		
+		System.out.println(hTable2.toString()); //{}		
 	}
 }
-
-
-
-
-
-
-
-
-
-
-

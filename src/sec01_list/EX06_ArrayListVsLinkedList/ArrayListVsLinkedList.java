@@ -61,6 +61,5 @@ public class ArrayListVsLinkedList {
 		}		
 		endTime = System.nanoTime();
 		System.out.println("LinkedList 데이터 제거시간 = " +(endTime-startTime) + " ns");
-		
 	}
 }

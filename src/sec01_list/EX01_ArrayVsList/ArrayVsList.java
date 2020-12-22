@@ -29,7 +29,6 @@ public class ArrayVsList {
 		aList.remove("다");
 		aList.remove("바");
 		System.out.println(aList.size()); //데이터의 개수 구하기
-		System.out.println(aList);
-		
+		System.out.println(aList);		
 	}
 }

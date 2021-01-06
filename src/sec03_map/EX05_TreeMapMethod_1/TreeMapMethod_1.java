@@ -57,7 +57,7 @@ public class TreeMapMethod_1 {
 		sortedMap = treeMap.subMap(6, 10);
 		System.out.println(sortedMap); //{6=6 번째 데이터, 8=8 번째 데이터}
 						
-		//#14. NavigableMap<K,V> headMap(K toKey, boolean inclusive)
+		//#14. NavigableMap<K,V> subMap(K toKey, boolean inclusive)
 		navigableMap = treeMap.subMap(6, false, 10, true);
 		System.out.println(navigableMap); //{8=8 번째 데이터, 10=10 번째 데이터}
 		

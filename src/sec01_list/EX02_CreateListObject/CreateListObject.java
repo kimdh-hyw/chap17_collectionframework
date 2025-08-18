@@ -1,6 +1,6 @@
 package sec01_list.EX02_CreateListObject;
 
-/*List<E> 컬렉션 인터페이스 Summary*/
+/*동적 크기와 정적 크기를 지니고 있는 리스트 객체 생성*/
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -33,4 +33,5 @@ public class CreateListObject {
         System.out.println(aList8);
     }
 }
+
 

@@ -1,5 +1,7 @@
 package sec01_list.EX03_ArrayListMethod;
 
+/*ArrayList<E> 클래스의 주요 메서드 활용 방법*/
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -82,6 +84,7 @@ public class ArrayListMethod {
 		System.out.println(Arrays.toString(integer2));				
 	}
 }
+
 
 
 

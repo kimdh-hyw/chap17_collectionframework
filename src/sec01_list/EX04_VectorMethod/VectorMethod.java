@@ -1,5 +1,7 @@
 package sec01_list.EX04_VectorMethod;
 
+/*Vector<E> 클래스의 주요 메서드 활용 방법*/
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.Vector;
@@ -82,6 +84,7 @@ public class VectorMethod {
 		System.out.println(Arrays.toString(integer2));
 	}
 }
+
 
 
 

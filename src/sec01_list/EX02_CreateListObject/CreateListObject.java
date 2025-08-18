@@ -1,5 +1,7 @@
 package sec01_list.EX02_CreateListObject;
 
+/*List<E> 컬렉션 인터페이스 Summary*/
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -31,3 +33,4 @@ public class CreateListObject {
         System.out.println(aList8);
     }
 }
+

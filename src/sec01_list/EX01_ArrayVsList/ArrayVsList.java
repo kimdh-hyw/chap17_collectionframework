@@ -1,5 +1,7 @@
 package sec01_list.EX01_ArrayVsList;
 
+/*배열과 리스트의 비교*/
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -32,3 +34,4 @@ public class ArrayVsList {
 		System.out.println(aList);		
 	}
 }
+

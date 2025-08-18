@@ -1,5 +1,7 @@
 package sec01_list.EX05_LinkedListMethod;
 
+/*LinkedList<E> 클래스의 주요 메서드 활용 방법*/
+
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
@@ -87,6 +89,7 @@ public class LinkedListMethod {
 		
 	}
 }
+
 
 
 

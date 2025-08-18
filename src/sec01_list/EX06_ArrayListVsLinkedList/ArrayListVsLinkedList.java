@@ -1,5 +1,7 @@
 package sec01_list.EX06_ArrayListVsLinkedList;
 
+/*ArrayList<E>와 LinkedList<E>의 성능 비교(데이터 추가/검색/삭제) ArrayListVsLinkedList*/
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -63,3 +65,4 @@ public class ArrayListVsLinkedList {
 		System.out.println("LinkedList 데이터 제거시간 = " +(endTime-startTime) + " ns");
 	}
 }
+

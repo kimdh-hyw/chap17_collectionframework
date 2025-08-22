@@ -1,5 +1,7 @@
 package sec02_set.EX02_HashSetMachanism;
 
+/*HashSet<E>의 중복 확인 메커니즘*/
+
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
@@ -86,3 +88,4 @@ public class HashSetMachanism {
 		
 	}
 }
+

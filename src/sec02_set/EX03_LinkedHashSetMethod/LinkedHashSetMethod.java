@@ -1,5 +1,7 @@
 package sec02_set.EX03_LinkedHashSetMethod;
 
+/*LinkedHashSet<E> 클래스의 주요 메서드 활용 방법*/
+
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
@@ -65,3 +67,4 @@ public class LinkedHashSetMethod {
 		
 	}
 }
+

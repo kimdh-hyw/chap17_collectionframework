@@ -1,5 +1,7 @@
 package sec02_set.EX05_TreeSetMethod_2;
 
+/*사용자 클래스의 크기 비교 기준 제공 및 TreeSet<E> 데이터로의 활용*/
+
 import java.util.Comparator;
 import java.util.TreeSet;
 
@@ -82,3 +84,4 @@ public class TreeSetMethod_2 {
 		}
 	}
 }
+

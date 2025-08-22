@@ -1,5 +1,7 @@
 package sec03_map.EX01_HashMapMethod;
 
+/*HashMap<K, V> 클래스의 주요 메서드 활용 방법*/
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
@@ -68,3 +70,4 @@ public class HashMapMethod {
 		System.out.println(hMap2.toString()); //{}
 	}
 }
+

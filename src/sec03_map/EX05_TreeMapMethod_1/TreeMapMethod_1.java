@@ -1,5 +1,7 @@
 package sec03_map.EX05_TreeMapMethod_1;
 
+/*TreeMap<K, V> 클래스의 주요 메서드 활용 방법*/
+
 import java.util.NavigableMap;
 import java.util.NavigableSet;
 import java.util.SortedMap;
@@ -72,6 +74,7 @@ public class TreeMapMethod_1 {
 		System.out.println(navigableMap.descendingMap()); //{4=4 번째 데이터, ... 18=18 번째 데이터}
 	}
 }
+
 
 
 

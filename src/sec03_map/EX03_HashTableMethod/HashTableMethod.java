@@ -1,5 +1,7 @@
 package sec03_map.EX03_HashTableMethod;
 
+/*HashTable<K, V> 클래스의 주요 메서드 활용 방법*/
+
 import java.util.Hashtable;
 import java.util.Map;
 import java.util.Set;
@@ -68,3 +70,4 @@ public class HashTableMethod {
 		System.out.println(hTable2.toString()); //{}		
 	}
 }
+

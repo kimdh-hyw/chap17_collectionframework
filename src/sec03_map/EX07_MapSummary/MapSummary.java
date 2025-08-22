@@ -1,5 +1,7 @@
 package sec03_map.EX07_MapSummary;
 
+/*Map<E> 컬렉션 인터페이스 Summary*/
+
 import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.LinkedHashMap;
@@ -43,6 +45,7 @@ public class MapSummary {
 		
 	}
 }	
+
 
 
 

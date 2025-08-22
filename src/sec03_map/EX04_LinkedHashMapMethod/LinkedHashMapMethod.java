@@ -1,5 +1,7 @@
 package sec03_map.EX04_LinkedHashMapMethod;
 
+/*LinkedHashMap<K, V> 클래스의 주요 메서드 활용 방법*/
+
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
@@ -67,4 +69,5 @@ public class LinkedHashMapMethod {
 		lhMap2.clear();
 		System.out.println(lhMap2.toString()); //{}
 	}
+
 }

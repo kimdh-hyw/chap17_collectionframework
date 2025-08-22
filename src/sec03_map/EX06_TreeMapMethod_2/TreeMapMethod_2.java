@@ -1,5 +1,7 @@
 package sec03_map.EX06_TreeMapMethod_2;
 
+/*사용자 클래스의 크기 비교 기준 제공 및 TreeMap<K, V> 데이터의 활용*/
+
 import java.util.Comparator;
 import java.util.TreeMap;
 
@@ -90,3 +92,4 @@ public class TreeMapMethod_2 {
 		System.out.println(treeMap5);
 	}
 }
+

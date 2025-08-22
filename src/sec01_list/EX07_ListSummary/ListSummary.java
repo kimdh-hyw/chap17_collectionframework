@@ -1,5 +1,7 @@
 package sec01_list.EX07_ListSummary;
 
+/*List<E> 컬렉션 인터페이스 Summary*/
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -33,3 +35,4 @@ public class ListSummary {
 		System.out.println(linkedList.toString()); //[다, 마, 나, 가]		
 	}
 }
+

@@ -1,5 +1,7 @@
 package sec03_map.EX02_HashMapMachanism;
 
+/*HashMap<K, V>에서 Key의 중복 확인 메커니즘*/
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
@@ -86,3 +88,4 @@ public class HashMapMachanism {
 		
 	}
 }
+

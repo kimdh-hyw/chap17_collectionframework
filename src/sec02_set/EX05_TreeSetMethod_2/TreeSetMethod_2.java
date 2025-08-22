@@ -79,9 +79,10 @@ public class TreeSetMethod_2 {
 		MyClass myClass2 = new MyClass(3, 3);
 		treeSet5.add(myClass1);
 		treeSet5.add(myClass2);
-		for(MyComparableClass mcc : treeSet5) {
+		for(MyClass mcc : treeSet5) {
 			System.out.println(mcc.data1);
 		}
 	}
 }
+
 

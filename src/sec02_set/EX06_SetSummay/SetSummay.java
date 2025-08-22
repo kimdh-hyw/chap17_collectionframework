@@ -1,5 +1,7 @@
 package sec02_set.EX06_SetSummay;
 
+/*List<E> 컬렉션 인터페이스 Summary*/
+
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
@@ -33,3 +35,4 @@ public class SetSummay {
 		System.out.println(treeSet.toString()); //[가 나 다 마]
 	}
 }
+

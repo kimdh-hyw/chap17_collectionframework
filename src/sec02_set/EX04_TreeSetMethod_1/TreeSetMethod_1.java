@@ -1,5 +1,7 @@
 package sec02_set.EX04_TreeSetMethod_1;
 
+/*TreeSet<E> 클래스의 주요 메서드 활용 방법*/
+
 import java.util.NavigableSet;
 import java.util.SortedSet;
 import java.util.TreeSet;
@@ -91,6 +93,7 @@ public class TreeSetMethod_1 {
 
 	}
 }
+
 
 
 

@@ -1,5 +1,7 @@
 package sec02_set.EX01_HashSetMethod;
 
+/*HashSet<E> 클래스의 주요 메서드 활용 방법*/
+
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Iterator;
@@ -65,3 +67,4 @@ public class HashSetMethod {
 		
 	}
 }
+

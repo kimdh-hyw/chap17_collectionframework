@@ -60,8 +60,7 @@ public class HashSetMachanism {
 		hashSet1.add(a1);
 		hashSet1.add(a2);
 		System.out.println(hashSet1.size()); //2
-		System.out.println();
-		
+		System.out.println();		
 		
 		//#2. equals 메서드만 오버라이딩
 		Set<B> hashSet2 = new HashSet<>();
@@ -75,7 +74,7 @@ public class HashSetMachanism {
 		System.out.println(hashSet2.size()); //2
 		System.out.println();
 		
-		//#2. equals + hashCode 메서드 오버라이딩
+		//#3. equals + hashCode 메서드 오버라이딩
 		Set<C> hashSet3 = new HashSet<>();
 		C c1 = new C(3);
 		C c2 = new C(3);
@@ -88,4 +87,5 @@ public class HashSetMachanism {
 		
 	}
 }
+
 

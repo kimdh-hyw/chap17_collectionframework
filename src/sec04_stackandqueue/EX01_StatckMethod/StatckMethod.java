@@ -1,5 +1,7 @@
 package sec04_stackandqueue.EX01_StatckMethod;
 
+/*Stack<E> 클래스의 주요 메서드 활용 방법*/
+
 import java.util.Stack;
 
 public class StatckMethod {
@@ -39,3 +41,4 @@ public class StatckMethod {
 		
 	}
 }
+

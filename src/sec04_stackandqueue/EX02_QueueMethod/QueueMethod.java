@@ -1,5 +1,7 @@
 package sec04_stackandqueue.EX02_QueueMethod;
 
+/*Queue<E> 컬렉션의 주요 메서드 활용 방법*/
+
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -43,6 +45,7 @@ public class QueueMethod {
 		System.out.println(queue2.poll()); //null 
 	}
 }
+
 
 
 
